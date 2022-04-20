@@ -107,7 +107,6 @@
   width: 100%;
   border-radius: 12px;
   -moz-padding-start: calc(0.75rem - 3px);
-  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -452,6 +451,37 @@
   padding-left: 25px;
 }
 
+.modal-ok {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: rgba(21, 33, 55, 0.8);
+  -webkit-box-shadow: 0 5px 14px rgba(21, 33, 55, 0.1);
+          box-shadow: 0 5px 14px rgba(21, 33, 55, 0.1);
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 500px;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.modal-ok img {
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.modal-ok p {
+  margin: 0;
+}
+
 .page-kdn {
   margin-bottom: 102px;
 }
@@ -558,11 +588,16 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .form-kdm .form-control {
   padding: 1rem 0.75rem;
   border-radius: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #333333;
 }
 
 .form-kdm .checkbox {
