@@ -1,0 +1,112 @@
+.form-kdm{
+  &__form{
+    background: #FFFFFF;
+    box-shadow: 0 5px 14px rgba(21, 33, 55, 0.1);
+    border-radius: 16px;
+    max-width: 600px;
+    padding: 30px 40px;
+    margin: 0 auto 64px;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #333333;
+    margin: 0 0 26px;
+  }
+  &__warning{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+  }
+  a{
+    color: #EB222D;
+    text-decoration: none;
+  }
+  .form-group{
+    margin-bottom: 31px;
+  }
+  .form-label{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 16px;
+  }
+  .form-btn{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    border: none;
+    background-color: #EB222D;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .form-control{
+    padding: 1rem 0.75rem;
+    border-radius: 12px;
+  }
+  .checkbox{
+    padding: 0;
+  }
+  .custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #EB222D;
+  }
+  .custom-checkbox:not(:disabled):active+label::before {
+    background-color: #EB222D;
+    border-color: #EB222D;
+  }
+  .custom-checkbox:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(#EB222D, 0.25);
+  }
+  .custom-checkbox:focus:not(:checked)+label::before {
+    border-color: #EB222D;
+  }
+  .custom-checkbox:checked+label::before {
+    border-color: #EB222D;
+    background-color: #EB222D;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+  }
+  .custom-checkbox:disabled+label::before {
+    background-color: #e9ecef;
+  }
+}
