@@ -1,5 +1,15 @@
 .vote-kdm{
   margin-bottom: 99px;
+  &__header{
+    margin-bottom: 50px;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    margin: 0;
+    color: #333333;
+  }
   &__filter{
     display: flex;
     flex-wrap: wrap;
@@ -145,5 +155,14 @@
   }
   .sort__select .jq-selectbox{
     width: fit-content;
+  }
+  @include r(767){
+    &__header{
+      margin-bottom: 29px;
+    }
+    &__title{
+      font-size: 24px;
+      line-height: 32px;
+    }
   }
 }

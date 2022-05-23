@@ -381,6 +381,11 @@
   margin-bottom: 30px;
 }
 
+.page-kdn__item a {
+  color: #EB222D;
+  text-decoration: none;
+}
+
 .page-kdn__h2 {
   font-weight: 700;
   font-size: 38px;
@@ -530,6 +535,18 @@
 
 .vote-kdm {
   margin-bottom: 99px;
+}
+
+.vote-kdm__header {
+  margin-bottom: 50px;
+}
+
+.vote-kdm__title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  margin: 0;
+  color: #333333;
 }
 
 .vote-kdm__filter {
@@ -723,4 +740,15 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+@media only screen and (max-width: 767px) {
+  .vote-kdm__header {
+    margin-bottom: 29px;
+  }
+
+  .vote-kdm__title {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
