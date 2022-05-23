@@ -333,6 +333,14 @@
   margin: 0;
 }
 
+.d-desktop-none {
+  display: none;
+}
+
+.d-mobile-none {
+  display: block;
+}
+
 .page-kdn {
   margin-bottom: 102px;
 }
@@ -346,7 +354,6 @@
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  display: block;
 }
 
 .page-kdn__content {
@@ -396,6 +403,16 @@
   line-height: 48px;
   color: #333333;
   margin: 0 0 26px;
+}
+
+.form-kdm__footer {
+  max-width: 600px;
+  padding: 30px 40px;
+  margin: 0 auto 64px;
+}
+
+.form-kdm .form-btn {
+  text-align: center;
 }
 
 .form-kdm a {
@@ -726,6 +743,14 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .d-desktop-none {
+    display: block;
+  }
+
+  .d-mobile-none {
+    display: none;
+  }
+
   .vote-kdm__header {
     margin-bottom: 29px;
   }

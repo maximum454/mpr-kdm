@@ -43,6 +43,19 @@
   }
 }
 
+.d-desktop-none{
+  display: none;
+  @include r(767){
+    display: block;
+  }
+}
+.d-mobile-none{
+  display: block;
+  @include r(767){
+    display: none;
+  }
+}
+
 @import "componets/page-kdn";
 @import "componets/form-kdm";
 @import "componets/vote-kdm";

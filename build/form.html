@@ -148,62 +148,76 @@
             </li>
         </ul>
         <h1 class="main__title">Конкурс детского рисунка «ЛЕТО С МПР» </h1>
-        <section class="page-kdn">
-            <figure class="page-kdn__figure">
-                <img class="d-mobile-none" src="./img/banner-vote.png" width="1336" height="500" alt="">
-                <img class="d-desktop-none" src="./img/banner-mobile.jpg" width="341" height="195" alt="">
-            </figure>
-            <div class="page-kdn__content">
-                <h2 class="page-kdn__h2">Онлайн-голосование</h2>
-                <div class="page-kdn__item">
-                    <p>Участниками конкурса рисунков могут быть дети в возрасте до 14 лет:</p>
-                    <ol class="page-kdn__list">
-                        <li>категория: дети до 6 лет</li>
-                        <li>категория: дети 7-10 лет</li>
-                        <li>категория: дети 11-14 лет</li>
-                    </ol>
+        <div class="form-kdm">
+            <form class="form-kdm__form" action="">
+                <div class="form-kdm__title">Заявка на участние</div>
+                <div class="form-group">
+                    <label class="form-label" for="city">Ваш город</label>
+                    <select class="form-select" name="" id="city">
+                        <option value="">МПР Белинского</option>
+                        <option value="">МПР Белинского</option>
+                        <option value="">МПР Белинского</option>
+                        <option value="">МПР Белинского</option>
+                    </select>
                 </div>
-                <p><b>Условия:</b></p>
-                <div class="page-kdn__item">
-                    <p>1.	Нарисуй рисунок на тему «Лето с МПР» и <a href="https://mpr-shop.ru/" target="_blank">принеси в МПР</a> с 01.06.22 до 22.06.22г.</p>
-                    <ul class="page-kdn__list">
-                        <li>Обязательное условие – на рисунке должны быть красные буквы «МПР»</li>
-                        <li>Подпишите рисунок: имя, фамилия, возраст ребенка, тел родителя.</li>
-                    </ul>
+                <div class="form-group">
+                    <label class="form-label" for="adress">Адрес МПР</label>
+                    <select class="form-select" name="" id="adress">
+                        <option value="">МПР Белинского</option>
+                        <option value="">МПР Белинского</option>
+                        <option value="">МПР Белинского</option>
+                        <option value="">МПР Белинского</option>
+                    </select>
                 </div>
-                <div class="page-kdn__item">
-                    <p>2.	Онлайн-голосование на сайте <a href="https://mpr-shop.ru/" target="_blank">https://mpr-shop.ru/</a> с 27.06.22 до 03.07.22</p>
-                    <ul>
-                        <li>Каждый может проголосовать за 3 рисунка – выбрать по 1 рисунку в каждой возрастной категории. Для голосования необходимо пройти регистрацию на сайте.</li>
-                    </ul>
+                <div class="form-group">
+                    <label class="form-label" for="year">Возраст ребенка</label>
+                    <select class="form-select" name="" id="year">
+                        <option value="">до 5 лет</option>
+                        <option value="">до 5 лет</option>
+                        <option value="">до 5 лет</option>
+                        <option value="">до 5 лет</option>
+                    </select>
                 </div>
-                <div class="page-kdn__item">
-                    <p>3.	Подведение итогов с 04.07.22 по 05.07.22.</p>
-                    <ul class="page-kdn__list">
-                        <li>В каждой возрастной категории определяются 3 победителя, которые набрали наибольшее количество голосов в онлайн-голосовании и выполнили все условия конкурса.</li>
-                    </ul>
+
+                <div class="form-group">
+                    <label class="form-label" for="fio">Фамилия и Имя ребенка</label>
+                    <input class="form-control" type="text" id="fio">
                 </div>
-                <div class="page-kdn__item">
-                    <p>4.	Награждение победителей 06.07.22</p>
-                    <ul class="page-kdn__list">
-                        <li>Победители онлайн-голосования награждаются в том же МПР, куда принесли рисунок.
-                            <ul>
-                                <li>1 место – сертификат 1000 руб.</li>
-                                <li>2 место – сертификат 700 руб.</li>
-                                <li>3 место – сертификат 500 руб.</li>
-                            </ul>
-                        </li>
-                    </ul>
+
+                <div class="form-group">
+                    <label class="form-label" for="phone">Телефон родителя</label>
+                    <input class="form-control js-phone" type="text" id="phone">
                 </div>
-                <div class="page-kdn__item">
-                    <p>5.  <a href="#">ОБЯЗАТЕЛЬНЫЕ УСЛОВИЯ</a> конкурса рисунков «ЛЕТО С МПР» .</p>
+                <div class="form-group">
+                    <label class="form-label" for="name-parent">Имя родителя</label>
+                    <input class="form-control" type="text" id="name-parent">
                 </div>
+                <div class="form-group">
+                    <label class="form-label" for="adress">Рисунок</label>
+                    <div class="custom-file">
+                        <input class="custom-file-input" type="file">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="person" name="person" value="indigo">
+                        <label for="person"><span>Я согласен на <a
+                                href="">обработку персональных данных</a></span></label>
+                    </div>
+
+                </div>
+                <button type="submit" class="form-btn">ОТПРАВИТЬ</button>
+            </form>
+            <div class="modal-ok d-none">
+                <img src="./img/check-ok.svg" width="42" height="42" alt="">
+                <p>Заявка успешно отправлена
+                    Голосование начнётся 3 июня 2022г.</p>
             </div>
-        </section>
-        <div class="warning-kdm">
-            <p class="warning-kdm__warning">Приём рисунков завёршён. Онлайн голосование начнётся 27.06.2022 г.</p>
-            <p class="warning-kdm__warning">Онлайн голосование будет проводится на этой странице.</p>
+            <div class="form-kdm__footer">
+                <a href="#" class="form-btn">Проверить загрузку рисунков </a>
+            </div>
         </div>
+
 
     </div>
 
