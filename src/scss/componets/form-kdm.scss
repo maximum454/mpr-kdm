@@ -19,6 +19,17 @@
     padding: 30px 40px;
     margin: 0 auto 64px;
   }
+  &__file{
+    flex: 1 0 270px;
+    max-width: 270px;
+  }
+  &__info{
+    flex: 1 0 143px;
+    max-width: 143px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
   .form-btn{
     text-align: center;
   }
@@ -113,5 +124,15 @@
   }
   .custom-checkbox:disabled+label::before {
     background-color: #e9ecef;
+  }
+
+  .custom-file{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+  }
+  .custom-file-input{
+    position: absolute;
   }
 }

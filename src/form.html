@@ -62,12 +62,10 @@
                         <option value="">до 5 лет</option>
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label class="form-label" for="fio">Фамилия и Имя ребенка</label>
                     <input class="form-control" type="text" id="fio">
                 </div>
-
                 <div class="form-group">
                     <label class="form-label" for="phone">Телефон родителя</label>
                     <input class="form-control js-phone" type="text" id="phone">
@@ -77,10 +75,17 @@
                     <input class="form-control" type="text" id="name-parent">
                 </div>
                 <div class="form-group">
-                    <label class="form-label" for="adress">Рисунок</label>
+                    <label class="form-label" for="FILE">Рисунок</label>
                     <div class="custom-file">
-                        <input class="custom-file-input" type="file">
+                        <label class="form-kdm__file" for="FILE">
+                            <input class="custom-file-input" type="file" name="data[file]" id="FILE">
+                            <button type="button" class="js-labelFile form-btn">
+                                <span class="js-fileName">Прикрепить файл</span>
+                            </button>
+                        </label>
+                        <div class="form-kdm__info">Фото или скан одного рисунка, размером до 5 МБ.</div>
                     </div>
+
                 </div>
                 <div class="form-group">
                     <div class="checkbox">
@@ -108,7 +113,6 @@
 
     @@include('./template/_footer.html')
 </div>
-<script src="https://mpr-shop.ru/bitrix/templates/mpr_new/js/mprshop.js?time=1645800351"></script>
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="js/mpr-kdm.js"></script>
 </body>

@@ -411,6 +411,23 @@
   margin: 0 auto 64px;
 }
 
+.form-kdm__file {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 270px;
+          flex: 1 0 270px;
+  max-width: 270px;
+}
+
+.form-kdm__info {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 143px;
+          flex: 1 0 143px;
+  max-width: 143px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 .form-kdm .form-btn {
   text-align: center;
 }
@@ -531,6 +548,21 @@
 
 .form-kdm .custom-checkbox:disabled + label::before {
   background-color: #e9ecef;
+}
+
+.form-kdm .custom-file {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+}
+
+.form-kdm .custom-file-input {
+  position: absolute;
 }
 
 .vote-kdm {

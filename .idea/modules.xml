@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../dobrotsen-page/.idea/dobrotsen-page.iml" filepath="$PROJECT_DIR$/../dobrotsen-page/.idea/dobrotsen-page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mpr-kdm.iml" filepath="$PROJECT_DIR$/.idea/mpr-kdm.iml" />
+    </modules>
+  </component>
+</project>
