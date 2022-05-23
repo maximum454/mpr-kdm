@@ -1,6 +1,5 @@
 # mpr-kdm
 Конкурс детского рисунка в МПР
-3 часа
 
 Главная
 https://maximum454.github.io/mpr-kdm/build/
