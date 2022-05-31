@@ -12,3 +12,6 @@ https://maximum454.github.io/mpr-kdm/build/vote.html
 
 Форма
 https://maximum454.github.io/mpr-kdm/build/form.html
+
+Результат
+https://maximum454.github.io/mpr-kdm/build/results.html

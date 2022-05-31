@@ -1,5 +1,28 @@
 .vote-kdm{
   margin-bottom: 99px;
+  &--results{
+    .card__item{
+      &:nth-child(1){
+        background-color: #FFD700;
+      }
+      &:nth-child(2){
+        background-color: #c0c0c0;
+      }
+      &:nth-child(3){
+        background-color: #b87333;
+      }
+      .vote-kdm__mesto{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        z-index: 1;
+      }
+    }
+  }
   &__header{
     margin-bottom: 50px;
   }
@@ -37,6 +60,7 @@
     padding: 23px;
   }
   &__figure{
+    background-color: #fff;
     margin: 0 0 12px;
     position: relative;
     min-height: 300px;
