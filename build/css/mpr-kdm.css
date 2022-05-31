@@ -774,6 +774,34 @@
   width: fit-content;
 }
 
+.vote-kdm .form-select {
+  padding: 0.87rem 2rem 0.87rem 1rem;
+  border: none;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 200px;
+  border-radius: 12px;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI3IiB2aWV3Qm94PSIwIDAgOCA3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNNS43MzIwNSA2QzQuOTYyMjUgNy4zMzMzMyAzLjAzNzc1IDcuMzMzMzMgMi4yNjc5NSA2TDAuNTM1ODk5IDNDLTAuMjMzOTAyIDEuNjY2NjcgMC43MjgzNDkgMCAyLjI2Nzk1IDBINS43MzIwNUM3LjI3MTY1IDAgOC4yMzM5IDEuNjY2NjcgNy40NjQxIDNMNS43MzIwNSA2WiIgZmlsbD0iIzMzMzMzMyIvPgo8L3N2Zz4K");
+  background-size: 8px 8px;
+}
+
+.vote-kdm .form-select:hover {
+  outline: none;
+}
+
+.vote-kdm .form-select:focus {
+  outline: none;
+}
+
 @media only screen and (max-width: 767px) {
   .d-desktop-none {
     display: block;
