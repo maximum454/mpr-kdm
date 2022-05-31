@@ -2,15 +2,6 @@
   margin-bottom: 99px;
   &--results{
     .card__item{
-      &:nth-child(1){
-        background-color: #FFD700;
-      }
-      &:nth-child(2){
-        background-color: #c0c0c0;
-      }
-      &:nth-child(3){
-        background-color: #b87333;
-      }
       .vote-kdm__mesto{
         position: absolute;
         top: 0;

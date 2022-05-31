@@ -569,18 +569,6 @@
   margin-bottom: 99px;
 }
 
-.vote-kdm--results .card__item:nth-child(1) {
-  background-color: #FFD700;
-}
-
-.vote-kdm--results .card__item:nth-child(2) {
-  background-color: #c0c0c0;
-}
-
-.vote-kdm--results .card__item:nth-child(3) {
-  background-color: #b87333;
-}
-
 .vote-kdm--results .card__item .vote-kdm__mesto {
   position: absolute;
   top: 0;
