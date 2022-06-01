@@ -557,6 +557,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   max-width: 100%;
   width: 100%;
 }
@@ -833,6 +835,23 @@
     display: none;
   }
 
+  .form-kdm__file {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .form-kdm__info {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
   .vote-kdm__header {
     margin-bottom: 29px;
   }
@@ -840,5 +859,32 @@
   .vote-kdm__title {
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .vote-kdm__search {
+    position: relative;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+  }
+
+  .vote-kdm__filter-select {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .vote-kdm .form-select {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .vote-kdm .sort__select {
+    width: 100%;
   }
 }
