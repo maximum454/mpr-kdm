@@ -649,7 +649,7 @@
   background-color: #fff;
   margin: 0 0 12px;
   position: relative;
-  min-height: 300px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -659,12 +659,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow: hidden;
 }
 
 .vote-kdm__figure img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   margin: 0 auto;
@@ -680,6 +681,7 @@
 .vote-kdm__link {
   text-decoration: none;
   display: block;
+  height: 100%;
 }
 
 .vote-kdm__name {
